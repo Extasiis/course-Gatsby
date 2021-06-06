@@ -3,7 +3,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import React from 'react'
 
 const Template = (props) => {
-    const image = getImage(props.data.file.childImageSharp.gatsbyImageData)
+    const image = getImage(props.data.file.childImageSharp)
   return (
     <div >
       <h1>{props.pageContext.relativePath}</h1>

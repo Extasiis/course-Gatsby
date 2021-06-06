@@ -61,7 +61,7 @@ module.exports = {
   {
     resolve: `gatsby-plugin-offline`, //Permite que la pagina trabaje sin internet despues de aberla cargado una vez es necesario que este despues de plugin-manifest
     options: {
-      precachePages: [`/about`, `/app`],
+      precachePages: [`/about`],
     },
   },
   ],
